@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #022a42;
+}
+.form{
+    padding: 50px 30px 80px;
+    box-shadow: 0 0 87px -14px #000;
+    border-radius: 10px;
+}
+h1{
+    color: #17a2b8;
+}
+#login,
+#signup {
+    color: #17a2b8;
+    border: 1px solid #17a2b8;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+}
+#login:hover,
+#signup:hover{
+    background-color: #17a2b8;
+    color: #fff;
+}
+.register p a {
+    text-decoration: none;
+
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+.alert {
+    padding-top:5px;
+    color: red;
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+nav {
+    box-shadow: 0 0 87px -14px #000;
+}
+#smart {
+    cursor: pointer;
+}
